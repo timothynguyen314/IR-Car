@@ -1,0 +1,52 @@
+********** Infrared (IR) Car by Tim Nguyen **********
+
+The IR Car uses an Arduino Nano Micro-Controller and Infrared (IR) Emitters and Receivers to run along a black line on a white background, outputting LED signals as it goes. It will also stop at a straight black finish line.
+
+LED Signals:
+	Green		if GO
+	Red		if RIGHT TURN
+	Blue		if LEFT TURN
+	Red+Blue	if STOP
+
+******************** FILES **************************
+
+ir_car.c
+	-Arduino Nano program
+	-Takes in the IR receiver signals as input
+	-Determines output of LED and wheels
+
+master_diagram
+	-How to set up entire circuit
+
+IR_diagram
+	-How to set up the IR emitters and receivers
+
+wheel_diagram
+	-How to set up wheels
+
+TOP_picture.JPG
+	-Picture of top of actual car
+
+BOTTOM_picture.JPG
+	-Picture of bottom of actual car
+
+IR_CAR_ACTION.mov
+	-Video of the car in action.
+
+*************** LIST OF MATERIALS *******************
+
+	- 1 Arduino Nano Micro-Controller
+	- 2 IR Emitters
+	- 2 IR Receivers
+	- 1 Green LED
+	- 1 Red   LED
+	- 1 Blue  LED
+	- 2 TIP 120 Transistors
+	- 7 1 kΩ Resistors
+	- 2 10kΩ Resistors
+	- 2 Wheels
+	- 1 9V Battery
+	- 1 6V Battery
+
+	- Breadboards
+	- Multiple Wires
